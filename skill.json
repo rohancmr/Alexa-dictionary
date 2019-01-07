@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-IN": {
+          "summary": "English Dictionary",
+          "examplePhrases": [
+            "Alexa open word cyclopedia",
+            "Alexa launch word cyclopedia",
+            "Alexa start word cyclopedia"
+          ],
+          "name": "Word Cyclopedia",
+          "description": "This is a english dictionary."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "This skill uses ALP for devices with screen",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/py",
+          "uri": "word-cyclopedia-aws-python-lambda-function"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
