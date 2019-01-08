@@ -4,6 +4,7 @@
 # the implementation of handler classes approach in skill builder.
 import logging
 import yaml
+import json
 
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.dispatch_components import AbstractRequestHandler
