@@ -1,18 +1,30 @@
 {
   "deploy_settings": {
     "rohank-aws-profile": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.25dcd308-785c-42a6-9457-5f2de00f06a1",
       "resources": {
         "lambda": [
           {
-            "functionName": "",
             "alexaUsage": [
               "custom/default"
             ],
-            "runtime": "python3.6",
-            "handler": "dictionary.handler"
+            "arn": "arn:aws:lambda:us-east-1:993276060965:function:ask-custom-word_cyclopedia-rohank-aws-profile",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/py/lambda_upload",
+            "functionName": "ask-custom-word_cyclopedia-rohank-aws-profile",
+            "handler": "dictionary.handler",
+            "revisionId": "4fea0c50-158c-4ac1-9e58-6d8b032ee257",
+            "runtime": "python3.6"
           }
-        ]
+        ],
+        "manifest": {
+          "eTag": "a5639d0e505596b273e8319ced5c78bd"
+        },
+        "interactionModel": {
+          "en-IN": {
+            "eTag": "cae9a0988f503400c576090fa704249b"
+          }
+        }
       },
       "was_cloned": false,
       "merge": {}

@@ -1,0 +1,41 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "word cyclopedia",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WordMeaningIntent",
+                    "slots": [
+                        {
+                          "name": "Query",
+                          "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "tell me meaning of {Query}",
+                        "what is meaning of {Query}",
+                        "what does {Query} mean",
+                        "tell me about {Query}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}

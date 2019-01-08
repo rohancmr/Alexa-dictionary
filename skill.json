@@ -21,7 +21,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/py",
+          "sourceDir": "lambda/py/lambda_upload",
           "uri": "ask-custom-word_cyclopedia-rohank-aws-profile"
         }
       }
