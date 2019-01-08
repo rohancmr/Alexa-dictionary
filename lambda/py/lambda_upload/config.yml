@@ -1,0 +1,6 @@
+skill_name: word cyclopedia
+welcome_message: Welcome to Word Cyclopedia.
+help_message: I can tell meaning of an English word. To get the meaning, tell me a word. For example, to get meaning of word stringent, say tell me meaning of stringent.
+reprompt_message: You need meaning for which word ?
+goodbye_message: Thank you for using Word Cyclopedia. If you like this skill, please write your feedback on Amazon website. Goodbye !! 
+word_slot: You want meaning of which world ?

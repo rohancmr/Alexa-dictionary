@@ -13,7 +13,7 @@
             "codeUri": "lambda/py/lambda_upload",
             "functionName": "ask-custom-word_cyclopedia-rohank-aws-profile",
             "handler": "dictionary.handler",
-            "revisionId": "4fea0c50-158c-4ac1-9e58-6d8b032ee257",
+            "revisionId": "07785684-ea63-4662-a10b-ed5e48df6e9c",
             "runtime": "python3.6"
           }
         ],
