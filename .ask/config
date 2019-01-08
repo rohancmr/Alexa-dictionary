@@ -1,6 +1,6 @@
 {
   "deploy_settings": {
-    "default": {
+    "rohank-aws-profile": {
       "skill_id": "",
       "resources": {
         "lambda": [

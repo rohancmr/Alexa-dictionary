@@ -9,7 +9,7 @@
             "Alexa launch word cyclopedia",
             "Alexa start word cyclopedia"
           ],
-          "name": "Word Cyclopedia",
+          "name": "word cyclopedia",
           "description": "This is a english dictionary."
         }
       },
@@ -22,7 +22,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/py",
-          "uri": "word-cyclopedia-aws-python-lambda-function"
+          "uri": "ask-custom-word_cyclopedia-rohank-aws-profile"
         }
       }
     },
