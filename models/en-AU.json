@@ -1,0 +1,82 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "word cyclopedia",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WordMeaningIntent",
+                    "slots": [
+                        {
+                            "name": "Query",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "tell me meaning of {Query}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{Query} means what ",
+                        "what is {Query}",
+                        "tell me the meaning of {Query} ",
+                        "tell me meaning of {Query}",
+                        "what is meaning of {Query}",
+                        "what does {Query} mean",
+                        "tell me about {Query}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "WordMeaningIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "Query",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.806179333030.1031298013711"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.806179333030.1031298013711",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You want meaning of which world ?"
+                    }
+                ]
+            }
+        ]
+    }
+}

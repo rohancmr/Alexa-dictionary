@@ -131,7 +131,7 @@
                 "items": [
                     {
                         "type": "Image",
-                        "source": "${payload.bodyTemplate1Data.backgroundImage.sources[0].url}",
+                        "source": "${payload.bodyTemplate1Data.backgroundImage.sources[1].url}",
                         "position": "absolute",
                         "width": "100vw",
                         "height": "100vh",

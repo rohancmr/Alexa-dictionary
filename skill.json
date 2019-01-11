@@ -5,12 +5,52 @@
         "en-IN": {
           "summary": "English Dictionary",
           "examplePhrases": [
-            "Alexa open word cyclopedia",
-            "Alexa launch word cyclopedia",
-            "Alexa start word cyclopedia"
+            "Alexa, open word cyclopedia",
+            "Alexa, launch word cyclopedia",
+            "Alexa, ask word cyclopedia to tell me meaning of etymology"
           ],
           "name": "word cyclopedia",
-          "description": "This is a english dictionary."
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+        },
+        "en-US": {
+          "summary": "English Dictionary",
+          "examplePhrases": [
+            "Alexa, open word cyclopedia",
+            "Alexa, launch word cyclopedia",
+            "Alexa, ask word cyclopedia to tell me meaning of etymology"
+          ],
+          "name": "word cyclopedia",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+        },
+        "en-CA": {
+          "summary": "English Dictionary",
+          "examplePhrases": [
+            "Alexa, open word cyclopedia",
+            "Alexa, launch word cyclopedia",
+            "Alexa, ask word cyclopedia to tell me meaning of etymology"
+          ],
+          "name": "word cyclopedia",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+        },
+        "en-AU": {
+          "summary": "English Dictionary",
+          "examplePhrases": [
+            "Alexa, open word cyclopedia",
+            "Alexa, launch word cyclopedia",
+            "Alexa, ask word cyclopedia to tell me meaning of etymology"
+          ],
+          "name": "word cyclopedia",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+        },
+        "en-GB": {
+          "summary": "English Dictionary",
+          "examplePhrases": [
+            "Alexa, open word cyclopedia",
+            "Alexa, launch word cyclopedia",
+            "Alexa, ask word cyclopedia to tell me meaning of etymology"
+          ],
+          "name": "word cyclopedia",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
         }
       },
       "isAvailableWorldwide": true,
@@ -23,7 +63,12 @@
         "endpoint": {
           "sourceDir": "lambda/py/lambda_upload",
           "uri": "ask-custom-word_cyclopedia-rohank-aws-profile"
-        }
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ]
       }
     },
     "manifestVersion": "1.0"

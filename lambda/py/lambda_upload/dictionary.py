@@ -4,12 +4,12 @@
 # the implementation of handler classes approach in skill builder.
 import logging
 import yaml
+import requests
 
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.dispatch_components import AbstractRequestHandler
 from ask_sdk_core.dispatch_components import AbstractExceptionHandler
 from ask_sdk_core.utils import is_request_type, is_intent_name, viewport
-from PyDictionary import PyDictionary
 
 from response_functions.launch_response import build_launch_response
 from response_functions.help_response import build_help_response
@@ -75,8 +75,27 @@ class GetMeaningIntentHandler(AbstractRequestHandler):
     def _get_meaning(self, word):
         """Function to get meaning of the word
         """
-        dictionary = PyDictionary()
-        meaning = dictionary.meaning(word)
+        '''dictionary = PyDictionary()
+        meaning = dictionary.meaning(word)'''
+
+        url = 'https://owlbot.info/api/v2/dictionary/{}'.format(word)
+
+        response = requests.get(url)
+
+        meaning = {}
+
+        if response.status_code == 200:
+            result = response.json()
+
+            try:
+                for i in result:
+                    if i['type'] in meaning:
+                        meaning[i['type']].append(i)
+                    else:
+                        meaning[i['type']] = [i]
+
+            except Exception as err:
+                print("No value fetched. Got Error: {}".format(err))
 
         return meaning
 
@@ -90,15 +109,8 @@ class GetMeaningIntentHandler(AbstractRequestHandler):
             meaning = self._get_meaning(word)
             alp_support = _check_viewpoint(handler_input)
 
-            return build_meaning_response(word, meaning, handler_input,
-                                          alp_support)
-
-            '''speech_text = "Hello Python World from Classes!.......:)"
-
-            handler_input.response_builder.speak(speech_text).set_card(
-                SimpleCard("Hello World", speech_text)).set_should_end_session(
-                True)
-            return handler_input.response_builder.response'''
+            return build_meaning_response(word.upper(), meaning,
+                                          handler_input, alp_support)
 
         else:
             # check if all mandatory slots are filled else prompt user for slot
@@ -152,7 +164,7 @@ class FallbackIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speech_text = ("The {} skill can't help you with that. {}"
+        speech_text = ("{} skill can't help you with that. {}"
                        .format(CONFIG['skill_name'], CONFIG['help_message']))
         reprompt = CONFIG['reprompt_message']
         alp_support = _check_viewpoint(handler_input)

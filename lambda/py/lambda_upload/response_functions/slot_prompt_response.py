@@ -44,7 +44,7 @@ def build_slot_prompt_response(prompt, handler_input, alp_support, slots):
                                     "heightPixels": 0
                                 },
                                 {
-                                    "url": "https://i.imgur.com/qhWWsFT.jpg",
+                                    "url": "https://i.imgur.com/Du6Spym.jpg",
                                     "size": "large",
                                     "widthPixels": 0,
                                     "heightPixels": 0

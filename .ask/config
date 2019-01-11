@@ -13,16 +13,28 @@
             "codeUri": "lambda/py/lambda_upload",
             "functionName": "ask-custom-word_cyclopedia-rohank-aws-profile",
             "handler": "dictionary.handler",
-            "revisionId": "07785684-ea63-4662-a10b-ed5e48df6e9c",
+            "revisionId": "18e682ff-6287-4207-be94-1bb8d8aa8d0b",
             "runtime": "python3.6"
           }
         ],
         "manifest": {
-          "eTag": "a5639d0e505596b273e8319ced5c78bd"
+          "eTag": "2b0bb1b217e1f5e32ea9d72bb35dde68"
         },
         "interactionModel": {
           "en-IN": {
-            "eTag": "cae9a0988f503400c576090fa704249b"
+            "eTag": "d880a227e16bac70cc5b2346ff6b38dd"
+          },
+          "en-AU": {
+            "eTag": "ed2f6206ed8176a905735721237e6959"
+          },
+          "en-GB": {
+            "eTag": "d880a227e16bac70cc5b2346ff6b38dd"
+          },
+          "en-US": {
+            "eTag": "d880a227e16bac70cc5b2346ff6b38dd"
+          },
+          "en-CA": {
+            "eTag": "d880a227e16bac70cc5b2346ff6b38dd"
           }
         }
       },

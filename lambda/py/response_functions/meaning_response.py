@@ -16,30 +16,42 @@ def _get_speech_text(word, meaning):
     """Function to get speech from the meaning
     """
     speech_text = ""
+    display_text = ""
 
-    for value, meaning_list in meaning.items():
-        no_of_meanings = len(meaning_list)
+    if meaning != {}:
+        for value, meaning_list in meaning.items():
+            no_of_meanings = len(meaning_list)
 
-        for index, text in enumerate(meaning_list):
+            for index, text in enumerate(meaning_list):
 
-            if (index == 0 and no_of_meanings >= 1):
-                speech_text += "As a {}, {} means:\n * {}".format(
-                    value, word, text)
+                if (index == 0 and no_of_meanings >= 1):
+                    speech_text += "As a {}, {} means:\n * {}".format(
+                        value, word, text['definition'])
 
-            else:
-                speech_text += "\n * {}".format(text)
+                    display_text += "<u><b>{}</b></u> <i>[{}]</i>:\n * {}"\
+                        .format(word, value, text['definition'])
 
-        speech_text += "\n\n"
+                else:
+                    speech_text += " or\n * {}".format(text['definition'])
+                    display_text += "\n * {}".format(text['definition'])
 
-    print(speech_text)
+            speech_text += "\n\n"
+            display_text += "\n\n"
 
-    return speech_text
+    else:
+        speech_text += "Sorry, no result found."
+        display_text += "Sorry, no result found."
+
+    print("Meaning Speech Response: {}".format(speech_text))
+    print("Meaning Display Response: {}".format(display_text))
+
+    return speech_text, display_text
 
 
 def build_meaning_response(word, meaning, handler_input, alp_support):
     """Function to build response for launch request
     """
-    speech_text = _get_speech_text(word, meaning)
+    speech_text, display_text = _get_speech_text(word, meaning)
 
     if alp_support is False:
         handler_input.response_builder.speak(speech_text).set_card(
@@ -67,7 +79,7 @@ def build_meaning_response(word, meaning, handler_input, alp_support):
                                     "heightPixels": 0
                                 },
                                 {
-                                    "url": "https://i.imgur.com/qhWWsFT.jpg",
+                                    "url": "https://i.imgur.com/Du6Spym.jpg",
                                     "size": "large",
                                     "widthPixels": 0,
                                     "heightPixels": 0
@@ -78,7 +90,7 @@ def build_meaning_response(word, meaning, handler_input, alp_support):
                         "textContent": {
                             "primaryText": {
                                 "type": "PlainText",
-                                "text": speech_text
+                                "text": display_text
                             }
                         },
                         "logoUrl": "https://i.imgur.com/eaFwECq.png"
