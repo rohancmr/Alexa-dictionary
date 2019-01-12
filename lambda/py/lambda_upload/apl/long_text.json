@@ -159,7 +159,7 @@
                                         "type": "Text",
                                         "text": "${payload.bodyTemplate1Data.textContent.primaryText.text}",
                                         "fontSize": "@textSizePrimary",
-                                        "spacing": "@spacingSmall",
+                                        "spacing": "@spacingThin",
                                         "style": "textStyleBody"
                                     }]
                                 }]

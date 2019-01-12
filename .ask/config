@@ -13,12 +13,12 @@
             "codeUri": "lambda/py/lambda_upload",
             "functionName": "ask-custom-word_cyclopedia-rohank-aws-profile",
             "handler": "dictionary.handler",
-            "revisionId": "18e682ff-6287-4207-be94-1bb8d8aa8d0b",
+            "revisionId": "ad09a946-1e6a-4112-bc14-fcf80a2cd607",
             "runtime": "python3.6"
           }
         ],
         "manifest": {
-          "eTag": "2b0bb1b217e1f5e32ea9d72bb35dde68"
+          "eTag": "07d8b1da0f9404f659bfa3761dac9bd7"
         },
         "interactionModel": {
           "en-IN": {

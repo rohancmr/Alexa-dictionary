@@ -58,7 +58,7 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speech_text = (CONFIG['welcome_message'] + "\n\n" +
+        speech_text = (CONFIG['welcome_message'] + "\n" +
                        CONFIG['help_message'])
         alp_support = _check_viewpoint(handler_input)
 

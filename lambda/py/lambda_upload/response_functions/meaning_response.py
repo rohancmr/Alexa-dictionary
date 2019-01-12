@@ -28,7 +28,7 @@ def _get_speech_text(word, meaning):
                     speech_text += "As a {}, {} means:\n * {}".format(
                         value, word, text['definition'])
 
-                    display_text += "<u><b>{}</b></u> <i>[{}]</i>:\n * {}"\
+                    display_text += "<u><b>{}</b></u> [{}]:\n * {}"\
                         .format(word, value, text['definition'])
 
                 else:

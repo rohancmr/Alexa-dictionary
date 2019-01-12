@@ -9,8 +9,21 @@
             "Alexa, launch word cyclopedia",
             "Alexa, ask word cyclopedia to tell me meaning of etymology"
           ],
-          "name": "word cyclopedia",
-          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+          "keywords": [
+            "dictionary",
+            "words",
+            "synonyms",
+            "cyclopedia",
+            "english",
+            "english",
+            "meanings",
+            "meaning",
+            "dictionaries"
+          ],
+          "name": "Word Cyclopedia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/da89/c54dbac20a394a2085d696defc22f616/APP_ICON?versionId=WR8s6n4la.c6CXSiIbZ.8AWOWOeYvZZq&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=3davdwJbADxeUCqmlAczYZ0PVBc%3D",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6b62/f1b9ee4338b9460ba79ba1ead0c6806e/APP_ICON_LARGE?versionId=R_WoGwR2YZeUsLw4_RFz.WUH3JZxt9ch&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=oipHup%2BHgHzkp8gwQZF1TxlhtYE%3D"
         },
         "en-US": {
           "summary": "English Dictionary",
@@ -19,8 +32,21 @@
             "Alexa, launch word cyclopedia",
             "Alexa, ask word cyclopedia to tell me meaning of etymology"
           ],
-          "name": "word cyclopedia",
-          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+          "keywords": [
+            "dictionary",
+            "words",
+            "synonyms",
+            "cyclopedia",
+            "english",
+            "english",
+            "meanings",
+            "meaning",
+            "dictionaries"
+          ],
+          "name": "Word Cyclopedia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/da89/c54dbac20a394a2085d696defc22f616/APP_ICON?versionId=WR8s6n4la.c6CXSiIbZ.8AWOWOeYvZZq&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=3davdwJbADxeUCqmlAczYZ0PVBc%3D",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6b62/f1b9ee4338b9460ba79ba1ead0c6806e/APP_ICON_LARGE?versionId=R_WoGwR2YZeUsLw4_RFz.WUH3JZxt9ch&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=oipHup%2BHgHzkp8gwQZF1TxlhtYE%3D"
         },
         "en-CA": {
           "summary": "English Dictionary",
@@ -29,8 +55,21 @@
             "Alexa, launch word cyclopedia",
             "Alexa, ask word cyclopedia to tell me meaning of etymology"
           ],
-          "name": "word cyclopedia",
-          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+          "keywords": [
+            "dictionary",
+            "words",
+            "synonyms",
+            "cyclopedia",
+            "english",
+            "english",
+            "meanings",
+            "meaning",
+            "dictionaries"
+          ],
+          "name": "Word Cyclopedia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/da89/c54dbac20a394a2085d696defc22f616/APP_ICON?versionId=WR8s6n4la.c6CXSiIbZ.8AWOWOeYvZZq&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=3davdwJbADxeUCqmlAczYZ0PVBc%3D",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6b62/f1b9ee4338b9460ba79ba1ead0c6806e/APP_ICON_LARGE?versionId=R_WoGwR2YZeUsLw4_RFz.WUH3JZxt9ch&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=oipHup%2BHgHzkp8gwQZF1TxlhtYE%3D"
         },
         "en-AU": {
           "summary": "English Dictionary",
@@ -39,8 +78,21 @@
             "Alexa, launch word cyclopedia",
             "Alexa, ask word cyclopedia to tell me meaning of etymology"
           ],
-          "name": "word cyclopedia",
-          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+          "keywords": [
+            "dictionary",
+            "words",
+            "synonyms",
+            "cyclopedia",
+            "english",
+            "english",
+            "meanings",
+            "meaning",
+            "dictionaries"
+          ],
+          "name": "Word Cyclopedia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/da89/c54dbac20a394a2085d696defc22f616/APP_ICON?versionId=WR8s6n4la.c6CXSiIbZ.8AWOWOeYvZZq&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=3davdwJbADxeUCqmlAczYZ0PVBc%3D",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6b62/f1b9ee4338b9460ba79ba1ead0c6806e/APP_ICON_LARGE?versionId=R_WoGwR2YZeUsLw4_RFz.WUH3JZxt9ch&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=oipHup%2BHgHzkp8gwQZF1TxlhtYE%3D"
         },
         "en-GB": {
           "summary": "English Dictionary",
@@ -49,13 +101,26 @@
             "Alexa, launch word cyclopedia",
             "Alexa, ask word cyclopedia to tell me meaning of etymology"
           ],
-          "name": "word cyclopedia",
-          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!"
+          "keywords": [
+            "dictionary",
+            "words",
+            "synonyms",
+            "cyclopedia",
+            "english",
+            "english",
+            "meanings",
+            "meaning",
+            "dictionaries"
+          ],
+          "name": "Word Cyclopedia",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/da89/c54dbac20a394a2085d696defc22f616/APP_ICON?versionId=WR8s6n4la.c6CXSiIbZ.8AWOWOeYvZZq&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=3davdwJbADxeUCqmlAczYZ0PVBc%3D",
+          "description": "Word Cyclopedia Alexa skill is an English dictionary. It explains meaning of English words.\n\nThis skill is optimized for screens. So if you are using an Alexa device with screen, you can view meaning of the word displayed beautifully on the screen.\n\nTo get meaning of an English word like etymology, say Alexa, ask word cyclopedia to tell me meaning of etymology\n\n If you like this skill, please give this skill five star and write your valuable feedback. Thankyou !!",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6b62/f1b9ee4338b9460ba79ba1ead0c6806e/APP_ICON_LARGE?versionId=R_WoGwR2YZeUsLw4_RFz.WUH3JZxt9ch&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1547402686&Signature=oipHup%2BHgHzkp8gwQZF1TxlhtYE%3D"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "This skill uses ALP for devices with screen",
-      "category": "KNOWLEDGE_AND_TRIVIA",
+      "testingInstructions": "This skill uses APL for devices with screen",
+      "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     },
     "apis": {
@@ -71,6 +136,13 @@
         ]
       }
     },
-    "manifestVersion": "1.0"
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
   }
 }
